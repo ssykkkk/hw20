@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.superhero .hero-content h3,
+.superhero .hero-content p,
+.superhero .hero-content .hero-button, .banner3 .banner-content .banner-block, .powers-button, .powers-content, .banner1 .banner-buttons a:last-child, .banner1 .banner-buttons, .wrap,
+.head-nav,
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(47, 40, 30);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+p,
+span {
+  color: rgb(84, 72, 55);
+}
+
+header {
+  margin-top: 22px;
+}
+
+.logo {
+  margin-right: 320px;
+}
+
+.head-nav {
+  gap: 20px;
+  margin-right: 50px;
+  font-size: 14px;
+}
+.head-nav a {
+  color: rgb(47, 40, 30);
+}
+
+.header-buttons {
+  gap: 14px;
+}
+.header-buttons > div {
+  padding: 11px 25px;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.header-buttons > div:hover {
+  border: 1px solid rgb(23, 58, 86);
+  background-color: rgb(23, 58, 86);
+}
+.header-buttons > div:hover a {
+  color: white;
+}
+.header-buttons > div a {
+  color: rgb(23, 58, 86);
+}
+.header-buttons > .sign-up {
+  background-color: rgb(255, 153, 0);
+  border: 1px solid rgb(255, 153, 0);
+}
+.header-buttons > .sign-up:hover {
+  border: 1px solid rgb(255, 153, 0);
+  background-color: white;
+}
+.header-buttons > .sign-up:hover a {
+  color: rgb(255, 153, 0);
+}
+.header-buttons > .sign-up a {
+  color: white;
+}
+
+.banner1 {
+  margin-top: 67px;
+}
+.banner1 .banner-content {
+  margin-right: 3px;
+}
+.banner1 .banner-content h1 {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.banner1 .banner-content p {
+  width: 458px;
+  line-height: 28px;
+  margin-bottom: 51px;
+}
+.banner1 .banner-buttons {
+  gap: 30px;
+}
+.banner1 .banner-buttons a:first-child {
+  padding: 15px 41px;
+  border-radius: 4px;
+  background-color: rgb(255, 153, 0);
+  border: 1px solid rgb(255, 153, 0);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.banner1 .banner-buttons a:first-child:hover {
+  border: 1px solid rgb(255, 153, 0);
+  background-color: white;
+  color: rgb(255, 153, 0);
+}
+.banner1 .banner-buttons a:last-child {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(255, 153, 0);
+  text-decoration: underline;
+}
+.banner1 .banner-buttons a:last-child img {
+  margin-right: 9px;
+}
+
+.superpowers {
+  margin-top: 111px;
+  padding-bottom: 120px;
+  background-image: url("../images/Bgbg-tools.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 150px;
+}
+
+.powers-head {
+  width: 539px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 54px;
+}
+.powers-head h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.powers-content {
+  gap: 55px;
+  margin-bottom: 34px;
+}
+.powers-content > div h4 {
+  margin-top: 20px;
+  margin-bottom: 13px;
+  font-size: 22px;
+  font-weight: 600px;
+  line-height: 33px;
+}
+.powers-content > div p {
+  width: 240px;
+  font-size: 16px;
+}
+
+.powers-button {
+  justify-content: center;
+}
+.powers-button a {
+  padding: 15px 33px;
+  border: 1px solid rgb(255, 153, 0);
+  border-radius: 4px;
+  background-color: rgb(255, 153, 0);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.powers-button a:hover {
+  border: 1px solid rgb(255, 153, 0);
+  background-color: white;
+  color: rgb(255, 153, 0);
+}
+
+.banner2 {
+  margin-top: 90px;
+}
+.banner2 .banner-content {
+  margin-right: 106px;
+}
+.banner2 .banner-content > span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 3px;
+}
+.banner2 .banner-content h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 22px;
+}
+.banner2 .banner-content h6 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 12px;
+  margin-top: 25px;
+}
+.banner2 .banner-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.banner3 {
+  margin-top: 102px;
+}
+.banner3 .banner-content {
+  margin-left: 103px;
+}
+.banner3 .banner-content > span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 3px;
+}
+.banner3 .banner-content h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 22px;
+}
+.banner3 .banner-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.banner3 .banner-content .banner-p {
+  margin-bottom: 30px;
+}
+.banner3 .banner-content .banner-block {
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.banner4 {
+  margin-top: 82px;
+}
+.banner4 .banner-content {
+  margin-right: 106px;
+}
+.banner4 .banner-content > span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 3px;
+}
+.banner4 .banner-content h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 22px;
+}
+.banner4 .banner-content h6 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 12px;
+  margin-top: 25px;
+}
+.banner4 .banner-content p {
+  width: 486px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.superhero {
+  margin-top: 157px;
+  padding-top: 230px;
+  padding-bottom: 380px;
+  background-image: url("../images/Bgteam-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.superhero .wrap {
+  justify-content: center;
+}
+.superhero .hero-content {
+  position: relative;
+}
+.superhero .hero-content img {
+  position: absolute;
+  top: -110px;
+  left: -280px;
+}
+.superhero .hero-content h3,
+.superhero .hero-content p,
+.superhero .hero-content .hero-button {
+  justify-content: center;
+}
+.superhero .hero-content h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 22px;
+}
+.superhero .hero-content p {
+  width: 542px;
+  text-align: center;
+  line-height: 26px;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(86, 117, 146);
+  margin-bottom: 45px;
+}
+.superhero .hero-content .hero-button a {
+  padding: 15px 30px;
+  border: 1px solid rgb(255, 153, 0);
+  border-radius: 4px;
+  background-color: rgb(255, 153, 0);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  z-index: 1;
+  transition: 0.5s;
+}
+.superhero .hero-content .hero-button a:hover {
+  border: 1px solid rgb(255, 153, 0);
+  background-color: white;
+  color: rgb(255, 153, 0);
+}
+
+footer {
+  margin-top: 126px;
+  margin-bottom: 89px;
+}
+footer .foot-content {
+  display: flex;
+  padding-top: 102px;
+  border-top: 1px solid rgba(188, 208, 229, 0.5);
+}
+footer .foot-content > div > a {
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgb(47, 40, 30);
+}
+footer .foot-content > div > ul {
+  margin-top: 46px;
+}
+footer .foot-content > div > ul li a {
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 400;
+  color: rgb(84, 72, 55);
+}
+footer .foot-content .foot-block1 {
+  margin-right: 122px;
+}
+footer .foot-content .foot-block2 {
+  margin-right: 110px;
+  width: 120px;
+}
+footer .foot-content .foot-block3 {
+  margin-right: 103px;
+  width: 180px;
+}
+footer .foot-content .foot-block4 {
+  display: grid;
+}
+footer .foot-content .foot-block4 > a {
+  width: 283px;
+}
+footer .foot-content .foot-block4 input {
+  width: 329px;
+  height: 48px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+}
+footer .foot-content .foot-block4 input:-moz-placeholder-shown {
+  font-family: "Poppins", sans-serif;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer .foot-content .foot-block4 input:placeholder-shown {
+  font-family: "Poppins", sans-serif;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer .foot-content .foot-block4 input:valid {
+  font-family: "Poppins", sans-serif;
+  padding: 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+footer .foot-content .foot-block4 input:focus {
+  outline: 1px solid rgb(47, 40, 30);
+  border: none;
+}
+footer .foot-content .foot-block4 .button-foot {
+  margin-top: 21px;
+}
+footer .foot-content .foot-block4 .button-foot a {
+  padding: 8px 15px;
+  border: 1px solid rgb(255, 153, 0);
+  border-radius: 4px;
+  background-color: rgb(255, 153, 0);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  transition: 0.5s;
+}
+footer .foot-content .foot-block4 .button-foot a:hover {
+  border: 1px solid rgb(255, 153, 0);
+  background-color: white;
+  color: rgb(255, 153, 0);
+}/*# sourceMappingURL=style.css.map */
